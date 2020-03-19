@@ -1,0 +1,32 @@
+.location-container {
+  border: black 2px solid;
+  margin: 1rem;
+  background-color: lightblue;
+  border-radius: 6px;
+  max-width: 300px;
+}
+.small-image,
+img {
+  width: 100%;
+}
+.location-description {
+  padding: 1rem;
+  h3 {
+    color: rgba(68, 108, 160, 0.774);
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  padding-left: 1.3em;
+}
+li:before {
+  content: "\f105"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}

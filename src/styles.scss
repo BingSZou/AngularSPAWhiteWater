@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./assets/font-awesome/css/font-awesome.min.css";
+
+body {
+  font-family: "Indie Flower", cursive;
+}
+
+.content {
+  max-width: 1022px;
+  margin: auto;
+  background-color: lightgray;
+}

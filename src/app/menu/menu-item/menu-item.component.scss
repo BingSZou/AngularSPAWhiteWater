@@ -1,0 +1,18 @@
+.selectable-menu-item {
+  cursor: pointer;
+  line-height: 3rem;
+  width: 100%;
+  padding-left: 1rem;
+}
+.selectable-menu-item:hover {
+  background-color: #0f862b;
+  width: 100%;
+}
+.menu-icon {
+  width: 10px;
+  margin-right: 0.5rem;
+}
+li div {
+  display: inline-block;
+  width: 90%;
+}

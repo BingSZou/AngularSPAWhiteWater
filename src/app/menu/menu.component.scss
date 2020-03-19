@@ -1,0 +1,20 @@
+.menu-area {
+  position: relative;
+  display: flex;
+  width: 200px;
+  min-height: 100vh;
+  background-color: white;
+  padding: 1rem;
+}
+
+.menu-list {
+  list-style-type: none;
+  padding-left: 0;
+  width: 100%;
+}
+
+.ps-no-select {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}

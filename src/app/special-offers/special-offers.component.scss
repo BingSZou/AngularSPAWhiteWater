@@ -1,0 +1,19 @@
+img {
+  width: 100%;
+}
+.centered-h {
+  position: absolute;
+  transform: translate(50%, -50%);
+  color: rgb(70, 58, 177);
+  top: 50%;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+}

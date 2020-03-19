@@ -1,0 +1,35 @@
+.title-container {
+  display: flex;
+  background-color: blanchedalmond;
+  padding: 1rem;
+  justify-content: space-around;
+}
+
+button {
+  margin: 2px;
+}
+.ps-left-side-controls {
+  display: inline;
+}
+.ps-right-side-controls {
+  line-height: 60px;
+  display: block;
+  text-align: right;
+  float: right;
+  margin-top: auto;
+  margin-left: auto;
+  padding-right: 2rem;
+}
+
+.title-section {
+  padding: 6px;
+  vertical-align: middle;
+  display: inline-block;
+  line-height: 50px;
+}
+.ps-logo-area {
+  text-align: left;
+}
+.line-break {
+  width: 100%;
+}
